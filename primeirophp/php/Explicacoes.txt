@@ -1,0 +1,6 @@
+Encapsulamento ---pegar nomes GETS SETS
+
+VISIBILIDADE - Private (nenhum ponto consigo ver)
+                Protected (ver depois que ver sobre herança)
+
+HERANÇA 

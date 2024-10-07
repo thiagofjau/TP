@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First PHP</title>
+</head>
+
+<body>
+    <a href="./form_produtos.html">
+        <h2>Cadastrar Produto</h2>
+    </a>
+    <h1>Contato</h1>
+    <form action="../php/mostrar_contato.php" method="GET">
+        <label for="nome">Nome</label> <br>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+        <label for="sobrenome">Sobrenome</label> <br>
+        <input type="text" name="sobrenome" id="sobrenome">
+        <br><br>
+        <label for="cpf">CPF</label> <br>
+        <input type="text" name="cpf" id="cpf">
+        <br><br>
+        <input
+            style="cursor: pointer; background-color: brown; border-radius: 10px; padding: 10px; color: antiquewhite; border: none;"
+            type="submit">
+    </form>
+    <a href="../php/index.php">Ver Clientes Cadastrados</a>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos PHP</title>
+</head>
+<body>
+    <h1>Cadastrar Produtos</h1>
+    <form action="mostrar_produtos.php" method="GET"> 
+        <!-- o for liga o label com o input, ex: clicar no label já entra no input -->
+        <label for="nome">Nome</label>  <br>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+        <label for="descricao">Descrição</label> <br>
+        <input type="text" name="descricao" id="descricao">
+        <br><br>
+        <label for="valor">Valor</label> <br>
+        <input type="text" name="valor" id="valor">
+        <br><br>
+        <input style="cursor: pointer; background-color: brown; border-radius: 10px; padding: 10px; color: antiquewhite; border: none;" type="submit">
+    </form>
+</body>
+</html>
